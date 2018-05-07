@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="angular.js"></script>
+<script src="app1.js"></script>
+</head>
+<body ng-app="m1" ng-controller="c1">
+<form action="MyUrl">
+
+
+<table border="5" align="center">
+<caption>Login Page</caption>
+<tr>
+<td>User Id:</td>
+<td><input type="text" name="t1" ng-model="n1"></td>
+</tr>
+
+<tr>
+<th>Password:</td>
+<td>
+<input type="password" name="t2" ng-model="n2">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="button" value="sign_in" ng-click="fun1()">
+</td>
+<td>
+<input type="reset" value="clear">
+</td>
+</tr>
+<table>
+</form>
+</body>
+</html>
